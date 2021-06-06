@@ -35,10 +35,10 @@ test.py를 직접 실행시킬 수 없으며, train_test.py를 실행시키면 t
 
 | 값 | 의미 | 기본값 |
 |---|:---:|---:|
-| `static` | 유형(기준) 없음 / 배치 불가능 | `static` |
-| `relative` | 요소 자신을 기준으로 배치 |  |
-| `absolute` | 위치 상 부모(조상)요소를 기준으로 배치 |  |
-| `fixed` | 브라우저 창을 기준으로 배치 |  |
+| `lrate` | 학습률 | `0.001` |
+| `Seed` | random seed값 | `100` |
+| `img_path` | 원본 이미지 파일 경로 | `./JPEGImages` |
+| `ann_path` | annotation 파일 경로 | `./Annotations` |
 
 값 | 의미 | 기본값
 ---|:---:|---:
