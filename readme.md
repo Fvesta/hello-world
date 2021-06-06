@@ -27,6 +27,8 @@ $python test.py [image_path]
 test.py를 직접 실행시킬 수 없으며, train_test.py를 실행시키면 test 결과까지
 터미널에 출력해줍니다.
 
+(train, valid, test dataset을 SubsetRandomSampler를 사용해 한번에 나누어, 한 파일에서 전부 진행하였습니다.) 
+
 ### train 및 test 명령어
 ```
 #python train_test.py  <--- 윈도우에서 실행시켰을 때의 명령어입니다. 리눅스에서도 같은 방식으로 가능할 것 같습니다.
