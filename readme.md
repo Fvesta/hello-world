@@ -33,6 +33,12 @@ test.py를 직접 실행시킬 수 없으며, train_test.py를 실행시키면 t
 ```
 #python train_test.py  <--- 윈도우에서 실행시켰을 때의 명령어입니다. 리눅스에서도 같은 방식으로 가능할 것 같습니다.
 ```
+
+### 특이사항
+
+학습에 tensorboard를 이용하여 overfitting을 모니터링하였는데,
+실제 제출한 코드 상에서는 tensorboard를 주석처리하였습니다.
+
 ### hyperparameters
 
 | 값 | 의미 | 기본값 |
