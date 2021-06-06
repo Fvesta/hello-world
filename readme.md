@@ -46,6 +46,6 @@ test.py를 직접 실행시킬 수 없으며, train_test.py를 실행시키면 t
 | `img_resize_path` | resizing된 이미지 파일 경로 | `./JPEGImages_resized` |
 
 그 외 값들
-| resizing된 img size | 256 * 256 |
-| transform img size | 224 * 224 |
-| pretrained model | resnet |
+| `resizing된 img size` | 256 * 256 |
+| `transform img size` | 224 * 224 |
+| `pretrained model` | resnet |
