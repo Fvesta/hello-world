@@ -29,7 +29,7 @@ test.py를 직접 실행시킬 수 없으며, train_test.py를 실행시키면 t
 
 ### train 및 test 명령어
 ```
-$python train_test.py
+#python train_test.py  <--- 윈도우에서 실행시켰을 때의 명령어입니다. 리눅스에서도 같은 방식으로 가능할 것 같습니다.
 ```
 ### hyperparameters
 
