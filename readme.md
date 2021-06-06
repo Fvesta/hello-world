@@ -19,18 +19,18 @@
 ### 과제 진행률
 
 test를 구현하지 못했습니다. 기존에 생각하던 test.py 구동방식은
-
+'''
 $python test.py [image_path]
-
+'''
 를 통해 object detection된 그림과 box를 그리는 방식이었는데, 만들지 못했습니다.
 이에 그냥 model의 prediction과의 loss값을 계산하는 방식으로만 만들어 놓았습니다.
 test.py를 직접 실행시킬 수 없으며, train_test.py를 실행시키면 test 결과까지
 터미널에 출력해줍니다.
 
 ### train 및 test 명령어
-
+'''
 $python train_test.py
-
+'''
 ### hyperparameters
 
 | 값 | 의미 | 기본값 |
