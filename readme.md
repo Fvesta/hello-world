@@ -1,3 +1,18 @@
+### Folder 구조
+```
+├── data
+│   ├── train
+│   ├── test
+│   └── validation
+├── code
+│   ├── train.py
+│   ├── classify.py
+│   ├── model.py
+│   └── dataset.py
+└── run.sh
+``` 
+
+
 ### hyperparameters
 
 | 값 | 의미 | 기본값 |
